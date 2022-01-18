@@ -1,6 +1,6 @@
 # Ubuntu 20.04 LTS (Focal Fossa) Ansible Test Image
 
-[![CI](https://github.com/geerlingguy/docker-ubuntu2004-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-ubuntu2004-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-ubuntu2004-ansible)](https://hub.docker.com/r/geerlingguy/docker-ubuntu2004-ansible/)
+[![CI](https://github.com/pincher95/docker-ubuntu2004-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/pincher95/docker-ubuntu2004-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/pincher95/docker-ubuntu2004-ansible)](https://hub.docker.com/r/pincher95/docker-ubuntu2004-ansible/)
 
 Ubuntu 20.04 LTS (Focal Fossa) Docker container for Ansible playbook and role testing.
 
@@ -32,7 +32,3 @@ This image is built on Docker Hub automatically any time the upstream OS contain
 I use Docker to test my Ansible roles and playbooks on multiple OSes using CI tools like Jenkins and Travis. This container allows me to test roles and playbooks using Ansible running locally inside the container.
 
 > **Important Note**: I use this image for testing in an isolated environment—not for production—and the settings and configuration used may not be suitable for a secure and performant production environment. Use on production servers/in the wild at your own risk!
-
-## Author
-
-Created in 2020 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
